@@ -10,6 +10,27 @@ Each one stands on its own. Start anywhere.
 
 ## Contents
 
+### Research
+
+Published on [jatzo.co.uk](https://jatzo.co.uk/research), oldest first. Each link opens the original page.
+
+**[Email spoofing protection across North East businesses](https://jatzo.co.uk/research/north-east-email-spoofing-2026)**<br>
+I checked the public DNS records of North East businesses to see how many publish a rule that would stop forged email
+in their name.
+
+**[Jatzo's detection rules, mapped to MITRE ATT&CK](https://jatzo.co.uk/research/mitre-attack-mapping)**<br>
+Each of Jatzo's detection rules placed in MITRE ATT&CK Enterprise, with the reasons some map to nothing.
+
+**[ClickFix: getting the victim to run the command](https://jatzo.co.uk/research/clickfix)**<br>
+An attack that gets the reader to paste and run a command themselves, and what an email analyser can see of it.
+
+**[Device code phishing: the sign-in page is real](https://jatzo.co.uk/research/device-code-phishing)**<br>
+An account takeover with no spoofing, where the victim completes multi-factor sign-in on a real page, and what email
+analysis can and cannot catch.
+
+**[When a convincing email became a parliamentary crisis](https://jatzo.co.uk/case-studies/bundestag-2015)**<br>
+How a targeted email led to the intrusion into Germany's Bundestag, and what it teaches about spear phishing. Undated.
+
 ### Measuring detection quality
 
 **[01. Cutting false alarms in a phishing analyser, and what the numbers did not show](01-cutting-false-alarms.md)**<br>
@@ -35,8 +56,9 @@ items.
 
 ## How to read them
 
-The numbers live in the posts, not on this page, so there is one place to check each of them. Each post ends with an
-Evidence table that says what every claim rests on, what is shown and what is left out.
+The numbers live in the write-ups and research pages, not on this page, so there is one place to check each of them.
+Each write-up in this repository ends with an Evidence table that says what every claim rests on, what is shown and
+what is left out.
 
 ## What is private, and why
 
