@@ -29,9 +29,6 @@ An attack that gets the reader to paste and run a command themselves, and what a
 An account takeover with no spoofing, where the victim completes multi-factor sign-in on a real page, and what email
 analysis can and cannot catch.
 
-**[When a convincing email became a parliamentary crisis](research/bundestag-2015.md)** ([original](https://jatzo.co.uk/case-studies/bundestag-2015))<br>
-How a targeted email led to the intrusion into Germany's Bundestag, and what it teaches about spear phishing.
-
 ### Measuring detection quality
 
 **[01. Cutting false alarms in a phishing analyser, and what the numbers did not show](01-cutting-false-alarms.md)**<br>
