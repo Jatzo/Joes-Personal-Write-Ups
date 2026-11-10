@@ -2,7 +2,7 @@ RESEARCH · 25 SEPTEMBER 2026
 
 # Most North East firms publish nothing to stop an email sent in their name.
 
-> Published on [jatzo.co.uk](https://jatzo.co.uk/research/north-east-email-spoofing-2026) on 25 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right.
+> Published on [jatzo.co.uk](https://jatzo.co.uk/research/north-east-email-spoofing-2026) on 25 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right. The charts are mine, drawn only from this page.
 
 We audited the public DNS records of 192 businesses across the North East on one day. 152 of them, 79%, publish no rule that tells a receiving mail server to reject a message forged in their name. Only 16 are properly protected.
 
@@ -26,6 +26,8 @@ Where there is no effective rule, a receiving server is given no instruction to 
 
 ## Protection
 
+![Dashboard: of 192 businesses checked, 152 (79%) are exposed with no effective policy, 24 (12%) are partial, with forged mail sent to junk, and 16 (8%) are protected, with forged mail rejected. Same figures as the table below.](../images/north-east-protection.svg)
+
 _All 192 businesses checked, 25 September 2026._
 
 | Protection | Businesses | Share |
@@ -35,6 +37,8 @@ _All 192 businesses checked, 25 September 2026._
 | Protected, forged mail rejected | 16 | 8% |
 
 ## By sector
+
+![Bar chart: Property 73 of 84 exposed (87%), Legal 31 of 48 (65%), Accountancy 35 of 44 (80%). Sectors with fewer than 20 businesses checked are not broken out. Same figures as the table below.](../images/north-east-sector.svg)
 
 Sectors with fewer than 20 businesses checked are counted in the total above but not broken out, because a percentage of a handful is not a finding.
 
@@ -47,6 +51,8 @@ _Businesses checked and businesses exposed, by sector._
 | Accountancy | 44 | 35 | 80% |
 
 ## By town
+
+![Bar chart: Newcastle upon Tyne 36 of 47 exposed (77%), Gateshead 16 of 20 (80%), Sunderland 15 of 17 (88%), Middlesbrough 11 of 12 (92%), Durham 6 of 10 (60%). Towns with fewer than 10 businesses checked are not broken out. Same figures as the table below.](../images/north-east-town.svg)
 
 Towns with fewer than 10 businesses checked are not broken out, for the same reason.
 
@@ -61,6 +67,8 @@ _Businesses checked and businesses exposed, by town._
 | Durham | 10 | 6 | 60% |
 
 ## SPF
+
+![Two figures: 8 of 192 (4%) publish no SPF record at all, and 69 of 192 (36%) publish an SPF record that asks receiving servers to reject nothing. Same figures as the list below.](../images/north-east-spf.svg)
 
 SPF lists which servers may send on a domain's behalf. On its own it does not tell a receiver what to do when a message fails, which is what DMARC adds.
 

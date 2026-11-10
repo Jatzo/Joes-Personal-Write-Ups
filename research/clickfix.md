@@ -2,7 +2,7 @@ THREAT REPORT · TLP:CLEAR
 
 # ClickFix: getting the victim to run the command
 
-> Published on [jatzo.co.uk](https://jatzo.co.uk/research/clickfix) on 29 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right.
+> Published on [jatzo.co.uk](https://jatzo.co.uk/research/clickfix) on 29 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right. The charts are mine, drawn only from this page.
 
 A technique that skips the attachment and the malicious link by getting the reader to paste the command themselves, and what an email analyser can see of it.
 
@@ -77,6 +77,8 @@ From [Microsoft](https://www.microsoft.com/en-us/security/blog/2025/08/21/think-
 - PowerShell connecting out, writing to a temporary folder under the user's profile, and something executing from that folder inside about five minutes (Sekoia).
 
 ## ATT&CK mapping
+
+![Six ATT&CK techniques for ClickFix. Seen at delivery: T1566.002 yes, where the lure is an email pointing at the page; T1204.004 yes, as an instruction, not as an execution; T1027 partly, where the message itself is obfuscated. Not seen: T1059.001, T1218.005 and T1105. Same detail as the table below.](../images/clickfix-coverage.svg)
 
 MITRE ATT&CK Enterprise v19.2. The split matters more than the list: the first three are visible in the message, and the rest happen after the victim has pasted.
 

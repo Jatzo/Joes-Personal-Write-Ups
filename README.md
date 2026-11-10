@@ -12,8 +12,8 @@ Each one stands on its own. Start anywhere.
 
 ### Research
 
-First published on [jatzo.co.uk](https://jatzo.co.uk/research), oldest first. Each is copied here as published, and
-links to its original, which is the current version.
+First published on [jatzo.co.uk](https://jatzo.co.uk/research), oldest first. Each is copied here as published and
+links to its original, which is the current version. The charts are mine, drawn from the page itself.
 
 **[Email spoofing protection across North East businesses](research/north-east-email-spoofing.md)** ([original](https://jatzo.co.uk/research/north-east-email-spoofing-2026))<br>
 I checked the public DNS records of North East businesses to see how many publish a rule that would stop forged email
@@ -65,8 +65,9 @@ what is left out.
 
 The engine, its evaluation reports, audits and commit history are private, because the product is live. In the
 numbered write-ups I leave out sample content, sender domains, rule wording, thresholds, size limits and timings, and
-any finding that is still open. The research pages are copied exactly as they were published on jatzo.co.uk, including
-what they say about how detection works. Everything public is linked.
+any finding that is still open. The research pages are copied word for word as they were published on jatzo.co.uk,
+including what they say about how detection works. The charts on them are my addition, and show nothing the page does
+not say. Everything public is linked.
 
 ## Corrections
 

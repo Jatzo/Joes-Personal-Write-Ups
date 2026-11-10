@@ -2,7 +2,7 @@ RESEARCH · REFERENCE
 
 # Where our detection rules sit in MITRE ATT&CK.
 
-> Published on [jatzo.co.uk](https://jatzo.co.uk/research/mitre-attack-mapping) as a maintained reference, checked against attack.mitre.org on 1 November 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right.
+> Published on [jatzo.co.uk](https://jatzo.co.uk/research/mitre-attack-mapping) as a maintained reference, checked against attack.mitre.org on 1 November 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right. The charts are mine, drawn only from this page.
 
 Every one of Jatzo's 172 detection rules has been read against what it actually reports and placed in [MITRE ATT&CK](https://attack.mitre.org/) Enterprise v20.0. 140 carry at least one technique. 32 deliberately carry none, and say why.
 
@@ -34,6 +34,8 @@ Most rules are not direct, and that is the honest result rather than a disappoin
 
 ## The numbers
 
+![Dashboard: 172 detection rules in the registry, 140 carrying at least one technique, 32 deliberately mapped to nothing, 30 distinct techniques and sub-techniques reached, 9 tactics reached, and 195 rule to technique placements: 65 direct, 69 partial, 61 context. Same figures as the table below.](../images/mitre-numbers.svg)
+
 _Jatzo's detection registry against ATT&CK Enterprise v20.0, 1 November 2026._
 
 | Measure | Count |
@@ -46,6 +48,8 @@ _Jatzo's detection registry against ATT&CK Enterprise v20.0, 1 November 2026._
 | Rule to technique placements | 195: 65 direct, 69 partial, 61 context |
 
 ## Where they land
+
+![Bar chart of the 30 distinct techniques reached, by tactic in ATT&CK order: Reconnaissance 1, Resource Development 3, Initial Access 5, Execution 4, Stealth 11, Credential Access 3, Lateral Movement 1, Command and Control 1, Impact 1. Same figures as the table below.](../images/mitre-tactics.svg)
 
 Techniques reached, by ATT&CK tactic, in the order ATT&CK gives them. The concentration is where an email analyser would expect it to be, and the thin tactics later on are the lures described above rather than the acts.
 
@@ -156,6 +160,8 @@ Where a code is taken rather than asked for. We detect a message asking somebody
 They share one shape. Each happens after delivery, on a device or inside a mailbox, and the message that started it carries no trace of what followed. A tool that reads the email at the door can describe who knocked and what they asked for. It cannot tell you what happened in the hall.
 
 ## The rules that map to nothing
+
+![Bar chart of the 32 rules carrying no technique: 19 nuisance channel, 7 record a check that passed or a normal-looking property, 5 uncertainty channel, 1 records a decision made by the customer's own team. Same figures as the table below.](../images/mitre-unmapped.svg)
 
 32 of 172 carry no technique at all. Each says why in the file, and leaving them out would have been the easier way to make the coverage look wider.
 

@@ -2,7 +2,7 @@ THREAT REPORT · TLP:CLEAR
 
 # Device code phishing: the sign-in page is real
 
-> Published on [jatzo.co.uk](https://jatzo.co.uk/research/device-code-phishing) on 29 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right.
+> Published on [jatzo.co.uk](https://jatzo.co.uk/research/device-code-phishing) on 29 September 2026. This copy was taken on 10 November 2026. The live page is the current version, and if the two ever differ, the live page is right. The charts are mine, drawn only from this page.
 
 An account takeover where nothing is spoofed and the victim completes multi-factor authentication correctly, and what email analysis can and cannot see.
 
@@ -77,6 +77,8 @@ Verified against the [Azure Monitor SigninLogs schema](https://learn.microsoft.c
 - **A device registration following a device code sign-in**, which is the Authentication Broker path Microsoft describes.
 
 ## ATT&CK mapping
+
+![Four ATT&CK techniques for device code phishing. Seen at delivery: T1566.002 yes, where the lure is an email; T1528 partly, the request is visible, the theft is not. Not seen: T1078.004 and T1098.001. Same detail as the table below.](../images/device-code-coverage.svg)
 
 MITRE ATT&CK Enterprise v19.2. As with any report written from the message outwards, the split is what matters.
 
