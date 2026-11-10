@@ -12,24 +12,25 @@ Each one stands on its own. Start anywhere.
 
 ### Research
 
-Published on [jatzo.co.uk](https://jatzo.co.uk/research), oldest first. Each link opens the original page.
+First published on [jatzo.co.uk](https://jatzo.co.uk/research), oldest first. Each is copied here as published, and
+links to its original, which is the current version.
 
-**[Email spoofing protection across North East businesses](https://jatzo.co.uk/research/north-east-email-spoofing-2026)**<br>
+**[Email spoofing protection across North East businesses](research/north-east-email-spoofing.md)** ([original](https://jatzo.co.uk/research/north-east-email-spoofing-2026))<br>
 I checked the public DNS records of North East businesses to see how many publish a rule that would stop forged email
 in their name.
 
-**[Jatzo's detection rules, mapped to MITRE ATT&CK](https://jatzo.co.uk/research/mitre-attack-mapping)**<br>
+**[Jatzo's detection rules, mapped to MITRE ATT&CK](research/mitre-attack-mapping.md)** ([original](https://jatzo.co.uk/research/mitre-attack-mapping))<br>
 Each of Jatzo's detection rules placed in MITRE ATT&CK Enterprise, with the reasons some map to nothing.
 
-**[ClickFix: getting the victim to run the command](https://jatzo.co.uk/research/clickfix)**<br>
+**[ClickFix: getting the victim to run the command](research/clickfix.md)** ([original](https://jatzo.co.uk/research/clickfix))<br>
 An attack that gets the reader to paste and run a command themselves, and what an email analyser can see of it.
 
-**[Device code phishing: the sign-in page is real](https://jatzo.co.uk/research/device-code-phishing)**<br>
+**[Device code phishing: the sign-in page is real](research/device-code-phishing.md)** ([original](https://jatzo.co.uk/research/device-code-phishing))<br>
 An account takeover with no spoofing, where the victim completes multi-factor sign-in on a real page, and what email
 analysis can and cannot catch.
 
-**[When a convincing email became a parliamentary crisis](https://jatzo.co.uk/case-studies/bundestag-2015)**<br>
-How a targeted email led to the intrusion into Germany's Bundestag, and what it teaches about spear phishing. Undated.
+**[When a convincing email became a parliamentary crisis](research/bundestag-2015.md)** ([original](https://jatzo.co.uk/case-studies/bundestag-2015))<br>
+How a targeted email led to the intrusion into Germany's Bundestag, and what it teaches about spear phishing.
 
 ### Measuring detection quality
 
@@ -57,14 +58,15 @@ items.
 ## How to read them
 
 The numbers live in the write-ups and research pages, not on this page, so there is one place to check each of them.
-Each write-up in this repository ends with an Evidence table that says what every claim rests on, what is shown and
+Each numbered write-up ends with an Evidence table that says what every claim rests on, what is shown and
 what is left out.
 
 ## What is private, and why
 
-The engine, its evaluation reports, audits and commit history are private, because the product is live. I leave out
-sample content, sender domains, rule wording, thresholds, size limits and timings, and any finding that is still open.
-Everything public is linked.
+The engine, its evaluation reports, audits and commit history are private, because the product is live. In the
+numbered write-ups I leave out sample content, sender domains, rule wording, thresholds, size limits and timings, and
+any finding that is still open. The research pages are copied exactly as they were published on jatzo.co.uk, including
+what they say about how detection works. Everything public is linked.
 
 ## Corrections
 
