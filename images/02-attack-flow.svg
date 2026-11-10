@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 330" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">How an instruction in an email can reach an assistant</title>
+<desc id="d">Four steps: an email carries instructions for an assistant, is delivered, read by the assistant on a routine question, and acted on. Jatzo checks the message itself, when a person checks it.</desc>
+<rect width="960" height="330" fill="#ffffff"/>
+<text x="30" y="38" font-size="18" font-weight="600" fill="#1b2430">How an instruction in an email can reach an assistant</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#5b6675"/></marker></defs>
+<rect x="30" y="70" width="200" height="118" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="44" y="98" font-size="15" font-weight="600" fill="#1b2430">1  Sent</text>
+<text x="44" y="124" font-size="13" fill="#5b6675">An email whose body carries</text>
+<text x="44" y="144" font-size="13" fill="#5b6675">instructions meant for</text>
+<text x="44" y="164" font-size="13" fill="#5b6675">an assistant</text>
+<line x1="234" y1="129.0" x2="264" y2="129.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="268" y="70" width="200" height="118" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="282" y="98" font-size="15" font-weight="600" fill="#1b2430">2  Delivered</text>
+<text x="282" y="124" font-size="13" fill="#5b6675">The message lands in the</text>
+<text x="282" y="144" font-size="13" fill="#5b6675">mailbox. The recipient</text>
+<text x="282" y="164" font-size="13" fill="#5b6675">does not need to click</text>
+<line x1="472" y1="129.0" x2="502" y2="129.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="506" y="70" width="200" height="118" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="520" y="98" font-size="15" font-weight="600" fill="#1b2430">3  Read</text>
+<text x="520" y="124" font-size="13" fill="#5b6675">The recipient asks the assistant</text>
+<text x="520" y="144" font-size="13" fill="#5b6675">a routine question. It pulls</text>
+<text x="520" y="164" font-size="13" fill="#5b6675">the email in as context</text>
+<line x1="710" y1="129.0" x2="740" y2="129.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="744" y="70" width="200" height="118" rx="8" fill="#ffffff" stroke="#b4451f" stroke-width="2"/>
+<text x="758" y="98" font-size="15" font-weight="600" fill="#1b2430">4  Acted on</text>
+<text x="758" y="124" font-size="13" fill="#5b6675">The assistant follows the</text>
+<text x="758" y="144" font-size="13" fill="#5b6675">instructions and can send</text>
+<text x="758" y="164" font-size="13" fill="#5b6675">data out</text>
+<path d="M30 202 L30 210 L468 210 L468 202" fill="none" stroke="#1f6f5c" stroke-width="2"/>
+<text x="249.0" y="234" font-size="14" font-weight="600" fill="#1f6f5c" text-anchor="middle">Where Jatzo looks: the message itself, when someone checks it</text>
+<text x="249.0" y="254" font-size="13" fill="#5b6675" text-anchor="middle">Hidden text, and wording that gives orders to something other than the reader</text>
+<text x="506" y="234" font-size="13" fill="#5b6675">Not visible to Jatzo: what the assistant</text>
+<text x="506" y="254" font-size="13" fill="#5b6675">does with it afterwards</text>
+</svg>

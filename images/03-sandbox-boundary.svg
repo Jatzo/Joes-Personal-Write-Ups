@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+<title id="t">Where untrusted email is read, and what is checked afterwards</title>
+<desc id="d">A message goes from the person checking it to the website, which receives the bytes but does not parse them, then to a disposable worker that has no database, secrets or network. The website checks the worker result strictly before scoring. If the worker is unavailable the check is refused.</desc>
+<rect width="960" height="380" fill="#ffffff"/>
+<text x="20" y="38" font-size="18" font-weight="600" fill="#1b2430">Where untrusted email is read, and what is checked afterwards</text>
+<defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#5b6675"/></marker></defs>
+<rect x="392" y="66" width="176" height="180" rx="10" fill="#fdf5f1" stroke="#b4451f" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="480.0" y="86" font-size="12" font-weight="600" fill="#b4451f" text-anchor="middle">Parsed only here</text>
+<rect x="20" y="100" width="140" height="122" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="32" y="126" font-size="15" font-weight="600" fill="#1b2430">1  Person checking</text>
+<text x="32" y="150" font-size="12.5" fill="#5b6675">A person pastes,</text>
+<text x="32" y="169" font-size="12.5" fill="#5b6675">uploads or opens a</text>
+<text x="32" y="188" font-size="12.5" fill="#5b6675">message in an add-in</text>
+<line x1="163" y1="161.0" x2="212" y2="161.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="215" y="100" width="140" height="122" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="227" y="126" font-size="15" font-weight="600" fill="#1b2430">2  Website</text>
+<text x="227" y="150" font-size="12.5" fill="#5b6675">Receives the bytes</text>
+<text x="227" y="169" font-size="12.5" fill="#5b6675">within a size limit.</text>
+<text x="227" y="188" font-size="12.5" fill="#5b6675">Sign-in, scoring,</text>
+<text x="227" y="207" font-size="12.5" fill="#5b6675">storage</text>
+<line x1="358" y1="161.0" x2="407" y2="161.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="410" y="100" width="140" height="122" rx="8" fill="#ffffff" stroke="#b4451f" stroke-width="2"/>
+<text x="422" y="126" font-size="15" font-weight="600" fill="#1b2430">3  Worker</text>
+<text x="422" y="150" font-size="12.5" fill="#5b6675">Parses the message.</text>
+<text x="422" y="169" font-size="12.5" fill="#5b6675">No database, secrets</text>
+<text x="422" y="188" font-size="12.5" fill="#5b6675">or network. Removed</text>
+<text x="422" y="207" font-size="12.5" fill="#5b6675">after each message</text>
+<line x1="553" y1="161.0" x2="602" y2="161.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="605" y="100" width="140" height="122" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="617" y="126" font-size="15" font-weight="600" fill="#1b2430">4  Result check</text>
+<text x="617" y="150" font-size="12.5" fill="#5b6675">Exact fields, types,</text>
+<text x="617" y="169" font-size="12.5" fill="#5b6675">sizes and depth.</text>
+<text x="617" y="188" font-size="12.5" fill="#5b6675">Anything else is</text>
+<text x="617" y="207" font-size="12.5" fill="#5b6675">refused</text>
+<line x1="748" y1="161.0" x2="797" y2="161.0" stroke="#5b6675" stroke-width="1.5" marker-end="url(#a)"/>
+<rect x="800" y="100" width="140" height="122" rx="8" fill="#ffffff" stroke="#c9d1da" stroke-width="1.5"/>
+<text x="812" y="126" font-size="15" font-weight="600" fill="#1b2430">5  Scoring</text>
+<text x="812" y="150" font-size="12.5" fill="#5b6675">Scores only what</text>
+<text x="812" y="169" font-size="12.5" fill="#5b6675">passed the check</text>
+<text x="20" y="278" font-size="14" font-weight="600" fill="#1f6f5c">If the worker is unavailable, the check is refused.</text>
+<text x="20" y="300" font-size="13" fill="#5b6675">There is no fallback that parses the message inside the website.</text>
+<text x="20" y="320" font-size="13" fill="#5b6675">The website assumes the worker can be taken over, so nothing it returns is trusted until it passes step 4.</text>
+</svg>
